@@ -1,0 +1,181 @@
+ 
+Program name         : marc  
+Job ID               : C:\Users\Utente\Dropbox\PC\Desktop\Prove senza cricca\Protesi spessa\Forza puntuale\343 N\protesi_job1 
+Version type         : i8  
+User subroutine name :   
+User objects/libs    :   
+Restart file job ID  :    
+Substructure file ID :    
+Post file job ID     :    
+Defaults file ID     :    
+View factor file ID  :    
+Save generated module: no 
+MPI library          : intelmpi 
+Contact decoupling   : 0 
+DDM processes        :  
+Element loop threads :  
+Solver processes     :  
+Solver threads       :  
+GPGPU option         :  
+Host file            :    
+Distributed i/o      :    
+Run directory        : C:\Users\Utente\Dropbox\PC\Desktop\Prove senza cricca\Protesi spessa\Forza puntuale\343 N 
+Scratch directory    : C:\Users\Utente\Dropbox\PC\Desktop\Prove senza cricca\Protesi spessa\Forza puntuale\343 N 
+Default bin directory: C:\Program Files\MSC.Software\Marc Student Edition\2022.1.0\marc2022.1\bin\win64i8 
+Material database    : C:\Program Files\MSC.Software\Marc Student Edition\2022.1.0\marc2022.1\AF_flowmat\  
+  
+ 
+29/09/2022 
+19:11
+ 
+ Marc protesi_job1 begins execution
+
+     (c) COPYRIGHT 2022 Hexagon Manufacturing Intelligence, Inc., all rights reserved
+
+
+ Requested number of element threads                     =    1
+ Requested number of solver threads                      =    1
+
+
+ VERSION: Marc 2022.1, build 874233 (2022/03/24)
+
+
+
+     Date: Thu Sep 29 19:11:41 2022
+
+                              Marc execution begins
+Acquired 1 license for Student Edition Marc
+
+
+             general memory initially set to =        25 MByte
+
+             maximum available memory set to =      8043 MByte
+
+             general memory increasing from      25 MByte to     133 MByte
+
+   Customer Entitlement ID
+        N/A
+
+             wall time =           1.00
+
+             wall time =           1.00
+
+
+             Number of warning messages is 0
+             wall time =           1.00
+
+
+             total  memory =          168  MByte
+
+             e n d   o f   i n c r e m e n t       0
+             wall time =           1.00
+
+
+             control of residual convergence:
+               relative tolerance:              1.00000E-01
+               cut-off value     :              0.00000E+00
+               absolute tolerance:              0.00000E+00
+               relative moment tolerance:       0.00000E+00
+               moment cut-off value     :       0.00000E+00
+               absolute moment tolerance:       0.00000E+00
+
+
+
+
+             s t a r t   o f   i n c r e m e n t       1
+
+             start of assembly     cycle number is     0
+             wall time =           1.00
+
+
+
+             start of matrix solution
+             wall time =           1.00
+
+
+
+             singularity ratio    3.4332E-02
+
+
+             end of matrix solution
+             wall time =           1.00
+
+
+             maximum residual force  at node         1 degree of freedom  3 is equal to    1.535E-02
+             maximum reaction force  at node       524 degree of freedom  3 is equal to    7.277E+01
+             residual convergence ratio    2.110E-04
+
+             total  memory =          179  MByte
+
+             e n d   o f   i n c r e m e n t       1
+             wall time =           1.00
+
+Returned 1 license for Student Edition Marc
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:           1      199300         0.4
+               solver: first part                    1      240684         0.5
+               overallocation initial allocation   132    34529762        73.5
+               other:                                0       34118         0.1
+              allocated separately:
+               incremental backup:                   4     1085494         2.3
+               solver 12                             6     1572864         3.3
+               global remeshing:                     0         714         0.0
+               nodal vectors:                        1      159260         0.3
+               defined sets:                         0         960         0.0
+               transformations:                      0        4452         0.0
+               kinematic boundary conditions:        0       21756         0.0
+               points, curves and surfaces:          0         288         0.0
+               mem_none:                             1      238098         0.5
+               element storage:                      7     1834116         3.9
+               material properties:                  0        4886         0.0
+               executable and common blocks:        27     7000000        14.9
+               miscellaneous                         0       47166         0.1
+               ---------------------------------------------------------------
+               total:                              179    46973918
+
+               general memory allocated:           134    35003864
+               general memory used:                  2      474102
+
+               peak memory usage:                  191    50130384
+
+
+             timing information:                             wall time      cpu time
+
+               total time for input:                              0.39          0.39
+               total time for stiffness matrix assembly:          0.05          0.06
+               total time for mass matrix assembly:               0.00          0.00
+               total time for stress recovery:                    0.12          0.11
+               total time for matrix solution:                    0.05          0.05
+               total time for output:                             0.18          0.16
+               total time for miscellaneous:                      0.10          0.09
+               ---------------------------------------------------------------------
+               total time:                                        0.89          0.86
+
+
+             **************************************************************************
+
+
+             
+             This is a successful completion to a Marc simulation,
+             indicating that no additional incremental data was
+             found and that the analysis is complete.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                        Marc 2022.1
+
+                                        Number of warning messages is 0
+
+                                        Exit number 3004

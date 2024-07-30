@@ -1,0 +1,38 @@
+Marc Mentat Student Edition (C)Copyright 1994-2022, Hexagon Manufacturing Intelligence, Inc., all rights reserved
+Models are limited to 50000 nodes, 1000 curves, 500 surfaces and 100 solids.
+Expiration Date: March 15, 2024
+Command > *open_model "c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\forza puntuale\343 n\protesi.mud"
+File has been written by Mentat 2022.1.
+Model file c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\forza puntuale\343 n\protesi.mud opened for reading.
+Model c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\forza puntuale\343 n\protesi opened.
+Command > *edit_apply Pressione
+Enter apply name : *edit_apply Pressione *remove_current_apply
+Enter apply name : *new_apply *apply_type point_load
+Command > *fill_view
+Command > *apply_dof z *apply_dof_value z
+Enter value for 'z' : *apply_dof_value z 343
+Enter value for 'mx' : *add_apply_nodes
+Enter add apply node list : *node_display_on *redraw
+Enter add apply node list :  1
+Enter add apply node list : # | End of List
+Enter add apply node list : *edit_apply apply2
+Enter apply name : 
+Command > *apply_name Forza_puntuale
+Command > *edit_job job1
+Enter edit job : 
+Command > *edit_loadcase lcase1
+Enter loadcase to edit : 
+Command > *add_loadcase_loads Forza_puntuale
+Enter loadcase add load : *edit_job job1
+Enter edit job : 
+Command > *update_job
+Command > *submit_job 1 *monitor_job
+INFO: Found 0 errors and 0 warnings.
+"C:\PROGRA~1\MSC~1.SOF\MARCST~1\20221~1.0\MENTAT~1.1\bin\submit1.bat" marc default 1 1 - - protesi_job1 - - - - - n n - - 0 1 1 0 - - - - -
+Job job1 submitted!
+Command > *save_model
+Model file c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\forza puntuale\343 n\protesi.mud opened for writing.
+Model saved to c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\forza puntuale\343 n\protesi.
+Command > *save_model *quit yes
+Model file c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\forza puntuale\343 n\protesi.mud opened for writing.
+Model saved to c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\forza puntuale\343 n\protesi.

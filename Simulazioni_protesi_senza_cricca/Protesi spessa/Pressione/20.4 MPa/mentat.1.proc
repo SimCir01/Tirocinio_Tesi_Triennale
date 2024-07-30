@@ -1,0 +1,32 @@
+| Created by Marc Mentat 2022.1 (64bit) Student Edition
+*prog_option compatibility:prog_version:ment2022.1
+*prog_analysis_class structural
+*prog_use_current_job on
+*set_default_length_unit millimeter
+*set_model_length_unit millimeter
+|
+*open_model "c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\pressione\20.4 mpa\protesi.mud"
+*fill_view
+*mouse_button_press(1)
+*rotate(1,0.494108,-0.004648,-0.005837)
+*rotate(1,0.490532,-0.004565,-0.005834)
+*rotate(1,0.729459,-0.006677,-0.008762)
+*rotate(1,0.961129,-0.008603,-0.011690)
+*rotate(1,1.420078,-0.012279,-0.017583)
+*rotate(1,3.223071,-0.025586,-0.041419)
+*rotate(1,5.712262,-0.037834,-0.077601)
+*rotate(1,4.001196,-0.022633,-0.056050)
+*rotate(1,4.699848,-0.202341,-0.003131)
+*rotate(1,5.369290,-0.013033,-0.061747)
+*rotate(1,8.355284,-0.006108,-0.098115)
+*rotate(1,2.503021,-0.000543,-0.029397)
+*rotate(1,6.548971,0.007368,-0.076647)
+*rotate(1,2.518453,0.004123,-0.029295)
+*rotate(1,1.752332,0.003490,-0.020284)
+*rotate(1,0.781793,0.001680,-0.009027)
+*rotate(1,0.587800,0.001333,-0.006774)
+*rotate(1,0.392410,-0.187760,-0.042316)
+*mouse_button_release(1)
+*edit_apply Pressione
+
+*save_model *quit yes

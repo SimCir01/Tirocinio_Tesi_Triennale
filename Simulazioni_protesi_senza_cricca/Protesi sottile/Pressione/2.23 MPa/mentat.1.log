@@ -1,0 +1,25 @@
+Marc Mentat Student Edition (C)Copyright 1994-2022, Hexagon Manufacturing Intelligence, Inc., all rights reserved
+Models are limited to 50000 nodes, 1000 curves, 500 surfaces and 100 solids.
+Expiration Date: March 15, 2024
+Command > *open_model "c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi sottile\pressione\2.23 mpa\protesi.mud"
+File has been written by Mentat 2022.1.
+Model file c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi sottile\pressione\2.23 mpa\protesi.mud opened for reading.
+Model c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi sottile\pressione\2.23 mpa\protesi opened.
+Command > *edit_apply Pressione
+Enter apply name : 
+Command > *apply_dof_value p 2.23
+Enter value for 'su' : *edit_job job1
+Enter edit job : 
+Command > *update_job
+Command > *submit_job 1 *monitor_job
+INFO: Found 0 errors and 0 warnings.
+"C:\PROGRA~1\MSC~1.SOF\MARCST~1\20221~1.0\MENTAT~1.1\bin\submit1.bat" marc default 1 1 - - protesi_job1 - - - - - n n - - 0 1 1 0 - - - - -
+Job job1 submitted!
+Command > *fill_view
+Command > *update_job
+Command > *save_model
+Model file c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi sottile\pressione\2.23 mpa\protesi.mud opened for writing.
+Model saved to c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi sottile\pressione\2.23 mpa\protesi.
+Command > *save_model *quit yes
+Model file c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi sottile\pressione\2.23 mpa\protesi.mud opened for writing.
+Model saved to c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi sottile\pressione\2.23 mpa\protesi.

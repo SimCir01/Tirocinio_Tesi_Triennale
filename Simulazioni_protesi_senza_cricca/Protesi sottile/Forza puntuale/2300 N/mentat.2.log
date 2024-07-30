@@ -1,0 +1,15 @@
+Marc Mentat Student Edition (C)Copyright 1994-2023, Hexagon Manufacturing Intelligence, Inc., all rights reserved
+Models are limited to 50000 nodes, 1000 curves, 500 surfaces and 100 solids.
+Expiration Date: March 15, 2025
+Command > *post_open "c:\users\utente\desktop\ingegneria medica\tirocinio_tesi\protesi senza cricca\prove senza cricca\protesi sottile\forza puntuale\2300 n\protesi_job1.t16"
+Number of increments detected : 2
+Command > *fill_view
+Command > @main(results) @popup(modelplot_pm) *post_open "protesi_job1.t16"
+Number of increments detected : 2
+Command > *post_contour_bands
+Command > *post_monitor
+Post increment 1:0
+End of analysis!
+Command > *post_value Equivalent Von Mises Stress
+Enter post variable : *set_automag on
+Command > *quit yes

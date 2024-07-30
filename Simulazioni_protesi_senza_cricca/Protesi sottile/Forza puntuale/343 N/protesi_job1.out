@@ -1,0 +1,1539 @@
+                            M               M
+                            W               W
+                          MMMMM           MMMMM
+                          WWWWW           WWWWW
+                        MMMMMMMMM       MMMMMMMMM
+                        WWWWWWWWW       WWWWWWWWW
+                      MMMMMMMMMMMMM   MMMMMMMMMMMMM
+                      WWWWWWWWWWWWW   WWWWWWWWWWWWW
+                    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+                    WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+                    MMMMMMMM MMMMMMMMMMMMMMM MMMMMMMM
+                    WWWWWWWW WWWWWWWWWWWWWWW WWWWWWWW
+                    MMMMMM     MMMMMMMMMMM     MMMMMM
+                    WWWWWW     WWWWWWWWWWW     WWWWWW
+                    MMMM         MMMMMMM         MMMM
+                    WWWW         WWWWWWW         WWWW
+                    MM             MMM             MM
+                    WW             WWW             WW
+                    M               M               M
+                    W               W               W
+                    MM             MMM             MM
+                    WW             WWW             WW
+                    MMMM         MMMMMMM         MMMM
+                    WWWW         WWWWWWW         WWWW
+                    MMMMMM     MMMMMMMMMMM     MMMMMM
+                    WWWWWW     WWWWWWWWWWW     WWWWWW
+                    MMMMMMMM MMMMMMMMMMMMMMM MMMMMMMM
+                    WWWWWWWW WWWWWWWWWWWWWWW WWWWWWWW
+                    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+                    WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
+                      MMMMMMMMMMMMM   MMMMMMMMMMMMM
+                      WWWWWWWWWWWWW   WWWWWWWWWWWWW
+                        MMMMMMMMM       MMMMMMMMM
+                        WWWWWWWWW       WWWWWWWWW
+                          MMMMM           MMMMM
+                          WWWWW           WWWWW
+                            M               M
+                            W               W
+
+             version: Marc 2022.1, build 874233 (2022/03/24)
+
+             machine type: WINDOWS
+
+             integer*8 version: integers are 64-bits
+
+             date: Thu Sep 29 19:05:16 2022
+
+
+             Student Edition
+
+               Maximum number of nodes in the model:      50000
+
+               Expiration date: March 15, 2024
+
+
+             (c) COPYRIGHT 2022 Hexagon Manufacturing Intelligence, Inc., all rights reserved
+
+                    Marc - W i n d o w s       
+
+                     i n p u t   d a t a
+
+
+                p a g e          1
+
+                             10        20        30        40        50        60        70        80        90       100       110       120       130       140       150       160
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     title               job1
+                     $....MARC input file produced by Marc Mentat 2022.1 (64bit) Student Edition
+                     $...................................
+                     $....input file using extended precision
+    card         5   extended
+                     $...................................
+                     sizing                                 0      9614      2517         0
+                     alloc                       25
+                     elements                   134
+    card        10   version                     15         2         0         0
+                     table                        0         0         2         1         1         0         0         1
+                     processor                    1         1         1         0
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                             10        20        30        40        50        60        70        80        90       100       110       120       130       140       150       160
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+1
+             general memory increasing from      25 MByte to     133 MByte
+
+
+             memory increased to        35003864 words during 
+             pre-reading of sets
+
+
+
+   Customer Entitlement ID
+        N/A
+
+
+             allocated        144 words of memory due to CAD bodies
+
+
+
+                    *************************************************
+                    *************************************************
+
+                     program sizing and options requested as follows
+
+
+
+                     element type requested*************************       134
+                     number of elements in mesh*********************      9614
+                     number of nodes in mesh************************      2517
+                     large displacement analysis flagged************
+                     load correction flagged or set*****************
+                     values stored at all integration points********
+                     tape no.for input of coordinates + connectivity         5
+                     no.of different materials    1 max.no of slopes         5
+                     number of points on shell section *************        11
+                     new style input format will be used************
+                     requested number of element threads************         1
+                     requested number of solver threads*************         1
+                     extended precision input is used ************** 
+                     Marc input version ****************************        15
+                     maximum number of boundary conditions *********         2
+                     suppress echo of list items *******************
+                     suppress echo of bc summary *******************
+                     suppress echo of nurbs data *******************
+                     additive formulation flagged for herrmann elements
+
+
+                     end of parameters and sizing
+                    *************************************************
+                    *************************************************
+
+
+
+
+
+                              key to stress, strain and displacement output
+
+
+
+                                        element type       134
+
+
+                              4-node isoparametric tetrahedral                       
+
+                              stresses and strains in global directions               
+                                1=xx                                                  
+                                2=yy                                                  
+                                3=zz                                                  
+                                4=xy                                                  
+                                5=yz                                                  
+                                6=xz                                                  
+                                                                                      
+                              displacements in global directions                      
+                                1=u global x direction                                
+                                2=v global y direction                                
+                                3=w global z direction                                
+
+             allocated     402732 words of memory due to nodal vectors
+
+
+             allocated       1032 words of memory due to boundary conditions
+
+
+             allocated         16 words of memory due to geometric points
+
+
+             allocated         46 words of memory due to geometric curves
+
+
+             allocated         26 words of memory due to geometric surfaces
+
+
+             allocated      10068 words of memory due to shell, user or contact transformations
+
+
+             allocated        736 words of memory due to shell or user transformations on geometric entities
+
+
+
+             workspace needed for input and stiffness assembly:          461810
+
+
+             internal core allocation parameters
+             degrees of freedom per node (ndeg)  3
+             max. number of coordinates per node  3
+             max. nodes per element (nnodmx)  4
+             max. invariants per int. points (neqst)  1
+             max.stress components per int. point (nstrmx)   6
+             strains per integration point (ngens)  6
+
+
+             flag for element storage (ielsto)  0
+
+             element data in core
+
+             memory usage per element group
+                group   # elements     nelsto      MByte            words
+                  1         9614         444          16           4268616
+                ----------------------------------------------------------
+                total       9614                      16           4268616
+
+
+
+                              internal element variables
+
+
+
+                              internal element number         1  library code type  134
+                              number of nodes=  4
+                              stresses stored per integration point =  6
+                              direct continuum components stored =  3
+                              shear continuum components stored =  3
+                              shell/beam flag = 0
+                              curvilinear  coord. flag = 0
+                              int.points for elem. stiffness  1
+                              number of local inertia directions  3
+                              int.point for print if all points not flagged  1
+                              int. points for dist. surface loads (pressure)  4
+                              library code type =   134
+                              large disp. row counts     6    6    6   11   11   11
+
+
+
+                              residual load correction is invoked
+
+
+
+             $...................                                                                                                                                            
+
+             solver                                                                                                                                                          
+             ----------
+
+
+             Mumps direct sparse solver invoked
+
+             optimize                    11                                                                                                                                  
+             ----------
+
+
+
+             metis nested dissection algorithm
+
+             cad bodies                                                                                                                                                      
+             ----------
+
+             scale factor =            1.00000E-03
+
+
+             CAD body id =                       1
+             CAD format =                        1
+             body type =                         3
+              Parasolid solid body
+
+             number of vertices =               60
+             number of edges =                  89
+             number of faces =                  34
+
+             CAD body name is :    Solido1
+             CAD file name is :    protesi_job1_b1.x_t
+
+
+             connectivity                                                                                                                                                    
+             ----------
+
+             CAD body id =                   1
+             geometry id =                   1
+             material id =                   1
+
+                meshr1,  iprnt
+                      5      1
+                elem no., type,        nodes
+
+             coordinates                                                                                                                                                     
+             ----------
+
+             ncrd1 ,meshr1,iprnt
+                    3         5         1
+                   node      coordinates
+
+             define              node                set                 Incastro_nodes                                                                                      
+             ----------
+
+             a list of nodes given below 
+                     1         2         3         4         5         6         7         8         9        10        11        12        13
+                     echo suppressed for       902 items
+                     total number of items read:       915
+
+             define              node                set                 Forza_puntuale_nodes                                                                                
+             ----------
+
+             a list of nodes given below 
+                   278
+
+             attach node                                                                                                                                                     
+             ----------
+
+
+             allocated        448 words of memory due to attach options
+
+
+             nodes attached to CAD body          1 vertex          1
+             a list of nodes given below 
+                  1053
+
+             nodes attached to CAD body          1 vertex          2
+             a list of nodes given below 
+                   561
+
+             nodes attached to CAD body          1 vertex          3
+             a list of nodes given below 
+                   195
+
+             nodes attached to CAD body          1 vertex          4
+             a list of nodes given below 
+                   189
+
+             nodes attached to CAD body          1 vertex          5
+             a list of nodes given below 
+                  1554
+
+             nodes attached to CAD body          1 vertex          6
+             a list of nodes given below 
+                  1507
+
+             nodes attached to CAD body          1 vertex          7
+             a list of nodes given below 
+                  1509
+
+             nodes attached to CAD body          1 vertex          8
+             a list of nodes given below 
+                  1437
+
+             nodes attached to CAD body          1 vertex          9
+             a list of nodes given below 
+                   592
+
+             nodes attached to CAD body          1 vertex         10
+             a list of nodes given below 
+                   549
+
+             nodes attached to CAD body          1 vertex         11
+             a list of nodes given below 
+                   192
+
+             nodes attached to CAD body          1 vertex         12
+             a list of nodes given below 
+                   198
+
+             nodes attached to CAD body          1 vertex         13
+             a list of nodes given below 
+                  1268
+
+             nodes attached to CAD body          1 vertex         14
+             a list of nodes given below 
+                  1379
+
+             nodes attached to CAD body          1 vertex         15
+             a list of nodes given below 
+                  1380
+
+             nodes attached to CAD body          1 vertex         16
+             a list of nodes given below 
+                  1307
+
+             nodes attached to CAD body          1 vertex         17
+             a list of nodes given below 
+                  1309
+
+             nodes attached to CAD body          1 vertex         18
+             a list of nodes given below 
+                   201
+
+             nodes attached to CAD body          1 vertex         19
+             a list of nodes given below 
+                  1052
+
+             nodes attached to CAD body          1 vertex         20
+             a list of nodes given below 
+                  1005
+
+             nodes attached to CAD body          1 vertex         21
+             a list of nodes given below 
+                  1007
+
+             nodes attached to CAD body          1 vertex         22
+             a list of nodes given below 
+                  1553
+
+             nodes attached to CAD body          1 vertex         23
+             a list of nodes given below 
+                  1017
+
+             nodes attached to CAD body          1 vertex         24
+             a list of nodes given below 
+                  1030
+
+             nodes attached to CAD body          1 vertex         25
+             a list of nodes given below 
+                  1032
+
+             nodes attached to CAD body          1 vertex         26
+             a list of nodes given below 
+                  1033
+
+             nodes attached to CAD body          1 vertex         27
+             a list of nodes given below 
+                   893
+
+             nodes attached to CAD body          1 vertex         28
+             a list of nodes given below 
+                   992
+
+             nodes attached to CAD body          1 vertex         29
+             a list of nodes given below 
+                   993
+
+             nodes attached to CAD body          1 vertex         30
+             a list of nodes given below 
+                   984
+
+             nodes attached to CAD body          1 vertex         31
+             a list of nodes given below 
+                   986
+
+             nodes attached to CAD body          1 vertex         32
+             a list of nodes given below 
+                   659
+
+             nodes attached to CAD body          1 vertex         33
+             a list of nodes given below 
+                   582
+
+             nodes attached to CAD body          1 vertex         34
+             a list of nodes given below 
+                   594
+
+             nodes attached to CAD body          1 vertex         35
+             a list of nodes given below 
+                   635
+
+             nodes attached to CAD body          1 vertex         36
+             a list of nodes given below 
+                   636
+
+             nodes attached to CAD body          1 vertex         37
+             a list of nodes given below 
+                  1266
+
+             nodes attached to CAD body          1 vertex         40
+             a list of nodes given below 
+                   657
+
+             nodes attached to CAD body          1 vertex         41
+             a list of nodes given below 
+                  1035
+
+             nodes attached to CAD body          1 vertex         42
+             a list of nodes given below 
+                  1034
+
+             nodes attached to CAD body          1 vertex         43
+             a list of nodes given below 
+                  1004
+
+             nodes attached to CAD body          1 vertex         44
+             a list of nodes given below 
+                   528
+
+             nodes attached to CAD body          1 vertex         45
+             a list of nodes given below 
+                   529
+
+             nodes attached to CAD body          1 vertex         46
+             a list of nodes given below 
+                   530
+
+             nodes attached to CAD body          1 vertex         47
+             a list of nodes given below 
+                   460
+
+             nodes attached to CAD body          1 vertex         48
+             a list of nodes given below 
+                   401
+
+             nodes attached to CAD body          1 vertex         49
+             a list of nodes given below 
+                   402
+
+             nodes attached to CAD body          1 vertex         50
+             a list of nodes given below 
+                   403
+
+             nodes attached to CAD body          1 vertex         51
+             a list of nodes given below 
+                   470
+
+             nodes attached to CAD body          1 vertex         52
+             a list of nodes given below 
+                   471
+
+             nodes attached to CAD body          1 vertex         53
+             a list of nodes given below 
+                   458
+
+             nodes attached to CAD body          1 vertex         54
+             a list of nodes given below 
+                   468
+
+             nodes attached to CAD body          1 vertex         55
+             a list of nodes given below 
+                   286
+
+             nodes attached to CAD body          1 vertex         56
+             a list of nodes given below 
+                   285
+
+             nodes attached to CAD body          1 vertex         57
+             a list of nodes given below 
+                   398
+
+             nodes attached to CAD body          1 vertex         59
+             a list of nodes given below 
+                   397
+
+             attach edge                                                                                                                                                     
+             ----------
+
+
+             allocated      87600 words of memory due to attach options
+
+
+             attach information given using Mentat convention
+
+             CAD body          1 edge          1
+                    87: 1        95: 1        97: 2       126: 0       234: 1       247: 0       313: 0       315: 2
+                     echo suppressed for       132 items
+                     total number of items read:       140
+
+             CAD body          1 edge          2
+                    80: 2       138: 0       164: 0       188: 1       203: 1       244: 2       320: 2       602: 0
+                     echo suppressed for        70 items
+                     total number of items read:        78
+
+             CAD body          1 edge          3
+                   131: 2       231: 2       722: 1      4658: 1      4661: 1      6901: 2
+
+             CAD body          1 edge          4
+                   931: 0      1555: 1      5431: 1      6823: 0
+
+             CAD body          1 edge          5
+                   213: 2      4075: 1
+
+             CAD body          1 edge          6
+                  1235: 0      1686: 1      6823: 2      8143: 1
+
+             CAD body          1 edge          7
+                   262: 1       263: 0      2881: 0      4256: 1
+
+             CAD body          1 edge          8
+                   483: 2      1240: 2      3999: 1      7170: 1
+
+             CAD body          1 edge          9
+                   931: 1       937: 2      1240: 0      2881: 2
+
+             CAD body          1 edge         10
+                   258: 0      1224: 1      5292: 0      7109: 1
+
+             CAD body          1 edge         11
+                  1119: 2      1230: 0
+
+             CAD body          1 edge         12
+                   158: 2       258: 2      3695: 0      7781: 0
+
+             CAD body          1 edge         13
+                   116: 1       176: 1       180: 0       193: 1       201: 2       202: 1       728: 2       738: 1
+                     echo suppressed for        80 items
+                     total number of items read:        88
+
+             CAD body          1 edge         14
+                   726: 2       728: 0      1224: 2      5426: 0
+
+             CAD body          1 edge         15
+                     2: 2         3: 2        52: 2       135: 2       154: 0       171: 2       175: 0       177: 0
+                     echo suppressed for       128 items
+                     total number of items read:       136
+
+             CAD body          1 edge         16
+                  1159: 0      5787: 2      6270: 2      9152: 0
+
+             CAD body          1 edge         17
+                   500: 0       689: 2      2152: 0      6430: 2
+
+             CAD body          1 edge         18
+                   508: 2      5085: 2      5781: 0      5787: 0
+
+             CAD body          1 edge         19
+                  6426: 0      8955: 2
+
+             CAD body          1 edge         20
+                   876: 1       879: 0      3941: 0      5375: 1
+
+             CAD body          1 edge         21
+                  2659: 1      4323: 0      4363: 0      4652: 2
+
+             CAD body          1 edge         22
+                  5292: 2      5293: 0
+
+             CAD body          1 edge         23
+                  4256: 0      6069: 2
+
+             CAD body          1 edge         24
+                    10: 1        47: 1       146: 1       205: 2       297: 1       327: 1       387: 1       473: 1
+                     echo suppressed for       128 items
+                     total number of items read:       136
+
+             CAD body          1 edge         25
+                   147: 2       289: 1       309: 2       433: 1       496: 1       558: 1       745: 2       764: 0
+                     echo suppressed for        74 items
+                     total number of items read:        82
+
+             CAD body          1 edge         26
+                  2372: 2      2659: 2      3571: 0      6869: 1
+
+             CAD body          1 edge         27
+                  2982: 1      4333: 0      6069: 0      7783: 1
+
+             CAD body          1 edge         28
+                   323: 2      1934: 1
+
+             CAD body          1 edge         29
+                   317: 0      5295: 1      5408: 2      7783: 0
+
+             CAD body          1 edge         30
+                  1555: 0      4450: 2
+
+             CAD body          1 edge         31
+                  1620: 2      6054: 0
+
+             CAD body          1 edge         32
+                  3989: 1      4450: 0      5435: 2      7778: 0
+
+             CAD body          1 edge         33
+                  1637: 0      4451: 1      5178: 1      5298: 2
+
+             CAD body          1 edge         34
+                  2982: 2      3989: 0      4337: 2      5298: 0
+
+             CAD body          1 edge         35
+                  1620: 0      1624: 2      2705: 0      5440: 1
+
+             CAD body          1 edge         36
+                  1619: 0      5178: 2
+
+             CAD body          1 edge         37
+                   157: 0       467: 2       628: 1      3289: 0
+
+             CAD body          1 edge         38
+                    34: 0       165: 0       168: 2       224: 0       312: 2       330: 0       332: 2       343: 0
+                     echo suppressed for       132 items
+                     total number of items read:       140
+
+             CAD body          1 edge         39
+                   721: 2       905: 0      1153: 0      1154: 2      4693: 2      5961: 0      6839: 2      7007: 1
+
+             CAD body          1 edge         40
+                    32: 2        81: 1        85: 1       122: 1       128: 0       151: 2       170: 0       208: 0
+                     echo suppressed for        66 items
+                     total number of items read:        74
+
+             CAD body          1 edge         41
+                  1112: 1      1624: 0      1628: 0      8382: 2
+
+             CAD body          1 edge         42
+                  2145: 4      3092: 2
+
+             CAD body          1 edge         43
+                    53: 0       136: 0      1151: 1      1218: 2      1219: 2      1220: 0      1341: 0      1349: 2
+                     echo suppressed for        20 items
+                     total number of items read:        28
+
+             CAD body          1 edge         44
+                   510: 1      1996: 1      2026: 1      2642: 0      2936: 2      3423: 2      3424: 0      4081: 2
+                     echo suppressed for         4 items
+                     total number of items read:        12
+
+             CAD body          1 edge         45
+                   195: 2       364: 1       405: 0       407: 2       913: 2       942: 1      1100: 1      1373: 1
+                     echo suppressed for        18 items
+                     total number of items read:        26
+
+             CAD body          1 edge         46
+                   940: 1      2463: 0      5885: 2      6312: 0
+
+             CAD body          1 edge         47
+                  1539: 2      3092: 0
+
+             CAD body          1 edge         48
+                  2145: 1
+
+             CAD body          1 edge         49
+                   236: 1       414: 0       952: 2      1010: 2      1409: 2      1852: 2      1863: 2      2101: 0
+                     echo suppressed for        30 items
+                     total number of items read:        38
+
+             CAD body          1 edge         50
+                   150: 0       400: 0       445: 2       532: 1       650: 1       682: 2       847: 0       850: 1
+                     echo suppressed for        44 items
+                     total number of items read:        52
+
+             CAD body          1 edge         51
+                    11: 2        43: 2        69: 0       269: 2       396: 1       399: 2       423: 0       451: 1
+                     echo suppressed for        74 items
+                     total number of items read:        82
+
+             CAD body          1 edge         52
+                   550: 1       566: 0      1049: 0      1598: 2      1971: 0      2216: 0      2583: 0      3975: 1
+                     echo suppressed for         4 items
+                     total number of items read:        12
+
+             CAD body          1 edge         53
+                   549: 2       551: 1      1252: 0      1301: 0      1612: 0      6497: 1
+
+             CAD body          1 edge         54
+                   279: 0       281: 0       544: 0       742: 2       934: 0       944: 2      1005: 2      1521: 0
+                     echo suppressed for         8 items
+                     total number of items read:        16
+
+             CAD body          1 edge         55
+                  4816: 2      5954: 1      6292: 1      6959: 0
+
+             CAD body          1 edge         56
+                    28: 2      1662: 0      1843: 4      2939: 0      3685: 0      5757: 4      6044: 2      8568: 2
+
+             CAD body          1 edge         57
+                  6416: 1      6933: 0
+
+             CAD body          1 edge         59
+                  1301: 2      2510: 2
+
+             CAD body          1 edge         60
+                    68: 1        70: 1       189: 0       251: 1       566: 2       782: 1      1117: 0      1299: 1
+                     echo suppressed for        20 items
+                     total number of items read:        28
+
+             CAD body          1 edge         61
+                     1: 1       463: 0       800: 1      1343: 1      1843: 1      2012: 2      3225: 2      4243: 1
+                     echo suppressed for         5 items
+                     total number of items read:        13
+
+             CAD body          1 edge         62
+                   901: 2       985: 2      1175: 1      1395: 2      1396: 1      2211: 2      2214: 4      2339: 1
+                     echo suppressed for        23 items
+                     total number of items read:        31
+
+             CAD body          1 edge         65
+                  4538: 1      7253: 1      7254: 2
+
+             CAD body          1 edge         66
+                  1395: 1      2471: 0      2948: 2      8617: 0
+
+             CAD body          1 edge         67
+                  5562: 2
+
+             CAD body          1 edge         68
+                  2145: 5      3357: 1
+
+             CAD body          1 edge         69
+                   883: 2      6160: 1
+
+             CAD body          1 edge         70
+                   659: 2       883: 0      1289: 0      2469: 2      3088: 0      4538: 5
+
+             CAD body          1 edge         71
+                  2469: 0
+
+             CAD body          1 edge         72
+                  8605: 1
+
+             CAD body          1 edge         73
+                   665: 1
+
+             CAD body          1 edge         74
+                   442: 2       450: 1       572: 2       844: 1      2728: 2      4635: 1      5108: 0      7384: 2
+
+             CAD body          1 edge         75
+                   453: 0      1933: 1      4845: 0      8365: 2
+
+             CAD body          1 edge         76
+                  1325: 2      3135: 1
+
+             CAD body          1 edge         77
+                  3125: 1      6271: 2
+
+             CAD body          1 edge         78
+                  1492: 2      4506: 0      5633: 0      6977: 1
+
+             CAD body          1 edge         79
+                  1134: 1      1921: 2      4796: 2      6195: 1
+
+             CAD body          1 edge         80
+                  1453: 1      5774: 0
+
+             CAD body          1 edge         81
+                   107: 2      1907: 1
+
+             CAD body          1 edge         82
+                  1949: 0      2614: 1      5817: 1      5847: 2
+
+             CAD body          1 edge         83
+                   665: 4       927: 0      1121: 1      1306: 1      1352: 2      1871: 1      2576: 2      2579: 1
+                     echo suppressed for         2 items
+                     total number of items read:        10
+
+             CAD body          1 edge         84
+                   333: 1      3797: 1      4470: 1      4522: 1      5557: 2      7399: 1      7401: 2      7405: 1
+
+             CAD body          1 edge         85
+                   114: 2       307: 1       669: 1       862: 2      1006: 2      3708: 2      5571: 1      5573: 1
+                     echo suppressed for         2 items
+                     total number of items read:        10
+
+             CAD body          1 edge         86
+                  5710: 2      7341: 0
+
+             CAD body          1 edge         87
+                   341: 0       877: 1      1319: 2      1397: 0      2456: 0      5602: 2
+
+             CAD body          1 edge         88
+                   286: 0       759: 0      1318: 0      1755: 0      2706: 2      3757: 2      3804: 2      4499: 2
+
+             attach face                                                                                                                                                     
+             ----------
+
+
+             allocated      32200 words of memory due to attach options
+
+
+             attach information given using Mentat convention
+
+             CAD body          1 face          1
+                     4: 3         8: 3        16: 3        52: 3       115: 3       116: 3       154: 3       171: 3
+                     echo suppressed for       220 items
+                     total number of items read:       228
+
+             CAD body          1 face          2
+                   500: 3       508: 3      1158: 3      5787: 3      6270: 3      6430: 3
+
+             CAD body          1 face          3
+                    17: 3        20: 3        32: 3        34: 3        81: 3        85: 3       122: 3       151: 3
+                     echo suppressed for       208 items
+                     total number of items read:       216
+
+             CAD body          1 face          4
+                   157: 3       628: 3      1619: 3      1624: 3      3993: 3      5440: 3      8382: 3
+
+             CAD body          1 face          5
+                     9: 3        23: 3        31: 3        33: 3        35: 3        48: 3        49: 3        61: 3
+                     echo suppressed for       472 items
+                     total number of items read:       480
+
+             CAD body          1 face          6
+                  2145: 1
+
+             CAD body          1 face          7
+                   548: 3       550: 3       551: 3       559: 3       742: 3       922: 3       935: 3       936: 3
+                     echo suppressed for        25 items
+                     total number of items read:        33
+
+             CAD body          1 face          8
+                    25: 3        30: 3        37: 3        42: 3        43: 3        44: 3        45: 3        62: 3
+                     echo suppressed for       196 items
+                     total number of items read:       204
+
+             CAD body          1 face          9
+                     1: 3         6: 3        36: 3        40: 3        41: 3        55: 3        68: 3        78: 3
+                     echo suppressed for       474 items
+                     total number of items read:       482
+
+             CAD body          1 face         10
+                    53: 3       136: 0       722: 3      1153: 0      1154: 2      1175: 3      1218: 2      1220: 3
+                     echo suppressed for        42 items
+                     total number of items read:        50
+
+             CAD body          1 face         11
+                     1: 1         7: 3        28: 3       463: 0       509: 3       510: 1       691: 3       799: 3
+                     echo suppressed for        41 items
+                     total number of items read:        49
+
+             CAD body          1 face         12
+                    11: 3        70: 3        75: 3       233: 3       396: 3       405: 3       407: 3       423: 3
+                     echo suppressed for        90 items
+                     total number of items read:        98
+
+             CAD body          1 face         14
+                   659: 3       665: 3       883: 3      2469: 3      6160: 3      8605: 3
+
+             CAD body          1 face         15
+                    71: 3        77: 3        82: 3        84: 3       134: 3       222: 3       227: 3       279: 3
+                     echo suppressed for       148 items
+                     total number of items read:       156
+
+             CAD body          1 face         16
+                    90: 3        91: 3        92: 3        98: 3       150: 3       283: 3       284: 3       361: 3
+                     echo suppressed for       141 items
+                     total number of items read:       149
+
+             CAD body          1 face         18
+                   105: 3       107: 3       346: 3       349: 3       359: 3       365: 3       368: 3       383: 3
+                     echo suppressed for       112 items
+                     total number of items read:       120
+
+             CAD body          1 face         19
+                   120: 3       121: 3       286: 3       295: 3       298: 3       304: 3       307: 3       333: 3
+                     echo suppressed for       112 items
+                     total number of items read:       120
+
+             CAD body          1 face         20
+                   114: 3       307: 1       333: 1       669: 1       862: 3      1006: 3      3041: 3      3046: 3
+                     echo suppressed for         8 items
+                     total number of items read:        16
+
+             CAD body          1 face         21
+                   325: 3      1289: 3      2470: 3      2471: 3      2948: 3      3088: 3      3095: 3      3357: 1
+                     echo suppressed for         3 items
+                     total number of items read:        11
+
+             CAD body          1 face         22
+                    87: 3        95: 3       165: 3       168: 3       330: 3       343: 3       344: 3       354: 3
+                     echo suppressed for       140 items
+                     total number of items read:       148
+
+             CAD body          1 face         23
+                   467: 3      1637: 3      3285: 3      3289: 3      3989: 3      4251: 3      5298: 3      5435: 3
+
+             CAD body          1 face         24
+                  1555: 3      1620: 3      2705: 3      5431: 3
+
+             CAD body          1 face         25
+                   317: 3       323: 3      2982: 3      3697: 3      4337: 3      5261: 3      7783: 3
+
+             CAD body          1 face         26
+                   262: 3      4256: 3      4450: 3      7778: 3
+
+             CAD body          1 face         27
+                   146: 3       147: 3       155: 1       155: 2       156: 3       178: 3       205: 3       302: 3
+                     echo suppressed for       213 items
+                     total number of items read:       221
+
+             CAD body          1 face         28
+                  4333: 3      5292: 3      6069: 3      7109: 3
+
+             CAD body          1 face         29
+                   879: 3      2372: 3      2659: 3      3941: 3      4334: 3      4363: 3
+
+             CAD body          1 face         30
+                     2: 3         3: 3        10: 3        47: 3       135: 3       175: 3       177: 3       190: 3
+                     echo suppressed for       136 items
+                     total number of items read:       144
+
+             CAD body          1 face         31
+                   258: 3       726: 3      1224: 3      1230: 3      1546: 3      5415: 3      7781: 3
+
+             CAD body          1 face         32
+                   158: 3       263: 3       482: 3       483: 3      1240: 3      2881: 3      3695: 3      6188: 3
+
+             CAD body          1 face         33
+                   213: 3       931: 3       937: 3      1235: 3      1552: 3      5432: 3      6823: 3
+
+             CAD body          1 face         34
+                    63: 3        80: 3        97: 3       126: 3       131: 3       138: 3       162: 3       163: 3
+                     echo suppressed for       212 items
+                     total number of items read:       220
+
+             isotropic           structural                                                                                                                                  
+             ----------
+
+
+             isotropic material  material id =               1
+              elastic    yield criteria
+              isotropic  hardening rule
+
+             material name is:       Ti-6Al-4V               
+
+
+                 structural  property                         value       table id
+
+
+             Youngs modulus                              1.14500E+05              0
+             Poissons ratio                              3.10000E-01              0
+             mass density                                0.00000E+00              0
+             shear modulus                               4.37023E+04              0
+             coefficient of thermal expansion            0.00000E+00              0
+             coefficient of diffusion expansion          0.00000E+00              0
+             Yield stress                                1.00000E+20              0
+             cost per unit volume                        0.00000E+00              0
+             cost per unit mass                          0.00000E+00              0
+
+
+
+             mat color                                                                                                                                                       
+             ----------
+
+
+             material id is:                  1
+                material type      =          1
+                material RGB color =        230         0         0
+
+             geometry                                                                                                                                                        
+             ----------
+
+
+             geometry name is:       geom1
+
+
+             geometry id =                 1
+             geometry RGB color =        230         0         0
+
+             geometric parameter       value
+                       1             0.00000E+00
+                       2             0.00000E+00
+                       3             1.00000E+00
+                       4             0.00000E+00
+                       5             0.00000E+00
+                       6             0.00000E+00
+                       7             0.00000E+00
+                       8             0.00000E+00
+
+             fixed disp                                                                                                                                                      
+             ----------
+
+
+             read data from unit    5
+
+             name of boundary condition Incastro
+
+             Displacements are applied incrementally relative to current position
+
+             Prescribed Displacement for dof  1 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  2 =      0.00000E+00  table id is        0
+
+             Prescribed Displacement for dof  3 =      0.00000E+00  table id is        0
+
+             applied to node ids       
+
+             Incastro_nodes
+
+             point load                                                                                                                                                      
+             ----------
+
+
+             read data from unit    5
+
+             name of boundary condition Forza_puntuale
+
+             Prescribed Nodal Force    =      3.43000E+02  table id is        0
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             Prescribed Nodal Force    =      0.00000E+00  table id is        0
+
+             applied to node ids       
+
+             Forza_puntuale_nodes
+
+             loadcase            job1                                                                                                                                        
+             ----------
+
+
+             activate boundary condition Incastro
+
+             no print                                                                                                                                                        
+             ----------
+
+
+             post                                                                                                                                                            
+             ----------
+
+             number of element variables on post file:    4
+
+             binary post file will be used
+
+             initial output frequency of post file:       1
+
+             Marc 2017 style post file (default)
+
+             post variable     1 is post code   17 =                                                 
+             post variable     2 is post code   18 =                                                 
+             post variable     3 is post code  311 =                                                 
+             post variable     9 is post code  401 =                                                 
+             maximum record length on binary post file=           2517
+             approximate no. of words per increment on file=         134612
+
+
+             parameters                                                                                                                                                      
+             ----------
+
+
+             parameters set as follows 
+
+             predictor used for stress-strain calculation    1.00000E+00
+             penalty factor for boundary conditions          1.00000E+09
+             penalty for incompressibility - r-p flow        1.00000E+02
+             penalty for incompressibility - fluid flow      1.00000E+06
+             beta parameter for Newmark operator             2.50000E-01
+             gamma parameter for Newmark operator            5.00000E-01
+             gamma1 parameter for Single-Step-Houbolt        1.50000E+00
+             gamma parameter for Single-Step-Houbolt        -5.00000E-01
+             sharp angle for sticking/separating - 2D        8.62500E+00
+             sharp angle for sticking/separating - 3D        2.00000E+01
+             initial strain rate for r-p flow                1.00000E-04
+             lowest strain rate cut-off for r-p flow         1.00000E-06
+             fraction of dilatational stress neglected       1.00000E+00
+             factor for drilling d.o.f for shells            1.00000E-04
+             factor for displacement after rezoning          1.00000E+00
+
+             universal gas constant                          8.31400E+00
+             absolute temperature offset                     2.73150E+02
+             thermal properties evaluation weight            5.00000E-01
+             surface projection factor in ssh dynamics       0.00000E+00
+             Stefan Boltzmann constant                       5.67051E-08
+             Planck's second radiation constant              1.43877E-02
+             Speed of light in vacuum                        2.99790E+08
+             Permeability of vacuum                          1.25664E-06
+             Permittivity of vacuum                          8.85419E-12
+             maximum iterative displacement component        1.00000E+30
+             initial stiffness to simulate sticking          0.00000E+00
+             minimum angle between the normal vectors of 
+             contacting segments                             1.20000E+02
+             radiation reflection cut-off                    1.00000E-03
+             angle for averaging adjacent beams (s2s)        1.60000E+02
+             stabilizer stiffness for model sections         0.00000E+00
+
+             maximum change in temperature per iteration     1.00000E+02
+             maximum rbe3 conditioning number                0.10000E+07
+             gasket initial stress stiffness factor          4.00000E-01
+
+             end option                                                                                                                                                      
+             ----------
+
+             wall time =           1.00
+
+             wall time =           1.00
+
+
+             Mumps direct symmetric multi-frontal sparse solver is invoked for region   1
+
+
+             number of element groups used:         1
+
+                group     # elements     element type     material                             formulation
+
+                   1        9614           134                1                                    UM
+ 
+               formulation:
+                     U:   updated Lagrange
+                     M:   multiplicative decomposition
+ 
+
+             Number of warning messages is 0
+
+
+             maximum connectivity in stiffness matrix is         21 at node       2436
+
+
+
+             maximum half-bandwidth is       2472  between nodes          9  and       2480
+
+             number of profile entries excluding fill-in is           16257
+
+
+
+             total workspace needed with in-core matrix storage =         1205328
+               part of solver workspace is allocated separately
+
+             allocated      60390 words of memory due to kinematic boundary conditions
+
+             wall time =           1.00
+
+
+
+
+
+
+
+             load increments for each degree of freedom
+             summed over the whole model
+
+             from distributed loads
+             dist. loads on undeformed configuration - increments for dist. loads
+             increments for point loads
+             0.000000E+00   0.000000E+00   0.000000E+00
+
+
+             point loads
+             0.000000E+00   0.000000E+00   0.000000E+00
+
+
+             increment zero is a null step
+
+
+             total strain energy         is    0.00000E+00
+               within which:
+               elastic strain energy     is    0.00000E+00
+             total ext-force work        is    0.00000E+00
+               within which:
+               work by appl. force/disp. is    0.00000E+00
+               work by frictional forces is    0.00000E+00
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:           2      508990         1.1
+               solver: first part                    2      615456         1.3
+               overallocation initial allocation   129    33798540        71.4
+               other:                                0       80878         0.2
+              allocated separately:
+               global remeshing:                     0        1026         0.0
+               nodal vectors:                        2      407768         0.9
+               defined sets:                         0        2162         0.0
+               transformations:                      0       10804         0.0
+               kinematic boundary conditions:        0       61422         0.1
+               points, curves and surfaces:          0         288         0.0
+               mem_none:                             0       20880         0.0
+               element storage:                     18     4674786         9.9
+               material properties:                  0        4886         0.0
+               executable and common blocks:        27     7000000        14.8
+               miscellaneous                         0      120458         0.3
+               ---------------------------------------------------------------
+               total:                              180    47308344
+
+               general memory allocated:           134    35003864
+               general memory used:                  5     1205324
+
+               peak memory usage:                  185    48557520
+
+             e n d   o f   i n c r e m e n t       0
+
+             binary post data at increment       0.  subincrement    0.  on file 16
+             wall time =           2.00
+
+
+             $...................                                                                                                                                            
+
+             $....start of loadcase lcase1                                                                                                                                   
+
+             title               lcase1                                                                                                                                      
+             ----------
+
+
+             loadcase            lcase1                                                                                                                                      
+             ----------
+
+
+             activate boundary condition Incastro
+
+             activate boundary condition Forza_puntuale
+
+             control             structural                                                                                                                                  
+             ----------
+
+
+             control information for region   1
+
+             maximum number of increments      99999
+             maximum number of recycles           10
+             minimum number of recycles            0
+
+             control of residual convergence:
+               relative tolerance:              1.00000E-01
+               cut-off value     :              0.00000E+00
+               absolute tolerance:              0.00000E+00
+               relative moment tolerance:       0.00000E+00
+               moment cut-off value     :       0.00000E+00
+               absolute moment tolerance:       0.00000E+00
+
+
+
+             full newton-raphson technique chosen
+
+             convergence testing is automatically switched between
+             residual and displacement testing if reactions or displacements 
+             become too small 
+
+             control messages will be written to log file
+
+             parameters                                                                                                                                                      
+             ----------
+
+
+             parameters set as follows 
+
+             predictor used for stress-strain calculation    1.00000E+00
+             penalty factor for boundary conditions          1.00000E+09
+             penalty for incompressibility - r-p flow        1.00000E+02
+             penalty for incompressibility - fluid flow      1.00000E+06
+             beta parameter for Newmark operator             2.50000E-01
+             gamma parameter for Newmark operator            5.00000E-01
+             gamma1 parameter for Single-Step-Houbolt        1.50000E+00
+             gamma parameter for Single-Step-Houbolt        -5.00000E-01
+             sharp angle for sticking/separating - 2D        8.62500E+00
+             sharp angle for sticking/separating - 3D        2.00000E+01
+             initial strain rate for r-p flow                1.00000E-04
+             lowest strain rate cut-off for r-p flow         1.00000E-06
+             fraction of dilatational stress neglected       1.00000E+00
+             factor for drilling d.o.f for shells            1.00000E-04
+             factor for displacement after rezoning          1.00000E+00
+
+             universal gas constant                          8.31400E+00
+             absolute temperature offset                     2.73150E+02
+             thermal properties evaluation weight            5.00000E-01
+             surface projection factor in ssh dynamics       0.00000E+00
+             Stefan Boltzmann constant                       5.67051E-08
+             Planck's second radiation constant              1.43877E-02
+             Speed of light in vacuum                        2.99790E+08
+             Permeability of vacuum                          1.25664E-06
+             Permittivity of vacuum                          8.85419E-12
+             maximum iterative displacement component        1.00000E+30
+             initial stiffness to simulate sticking          0.00000E+00
+             minimum angle between the normal vectors of 
+             contacting segments                             1.20000E+02
+             radiation reflection cut-off                    1.00000E-03
+             angle for averaging adjacent beams (s2s)        1.60000E+02
+             stabilizer stiffness for model sections         0.00000E+00
+
+             maximum change in temperature per iteration     1.00000E+02
+             maximum rbe3 conditioning number                0.10000E+07
+             gasket initial stress stiffness factor          4.00000E-01
+
+             auto load                                                                                                                                                       
+             ----------
+
+
+             iotnum,incasm
+                      1         0
+
+
+             maximum number of time step cutback           10
+             maximum number of forced remeshing             1
+             cutback step for next forced remeshing         0
+
+             time step                                                                                                                                                       
+             ----------
+
+             time increment =     1.00000E+00
+
+             continue                                                                                                                                                        
+             ----------
+
+
+
+             equal load incs specified for       1 increments
+
+
+
+
+             s t a r t   o f   i n c r e m e n t       1
+
+
+          space needed for incremental backup:     1352158
+
+
+
+
+
+
+
+             load increments for each degree of freedom
+             summed over the whole model
+
+             from distributed loads
+             dist. loads on undeformed configuration - increments for dist. loads
+             increments for point loads
+             0.000000E+00   0.000000E+00   0.000000E+00
+
+
+             point loads
+             3.430000E+02   0.000000E+00   0.000000E+00
+
+             start of assembly     cycle number is     0
+             wall time =           2.00
+
+             Metis nested dissection ordering used
+             pivoting perturbation tolerance used = 1.0e-11
+
+
+             start of matrix solution
+             wall time =           2.00
+
+
+
+             estimated minimum memory required for in-core  matrix solution
+             using MUMPS solver is         18 MBytes. 
+
+
+             estimated minimum memory required for out-of-core  matrix solution
+             using MUMPS solver is          9 MBytes. 
+
+
+             singularity ratio    3.7629E-03
+
+
+             end of matrix solution
+             wall time =           2.00
+
+
+             maximum residual force  at node       339 degree of freedom  3 is equal to    2.449E-02
+             maximum reaction force  at node       690 degree of freedom  1 is equal to    3.992E+01
+             residual convergence ratio    6.137E-04
+
+
+             total transient time = 1.000000000000000E+00
+
+
+
+   WINDOWS version
+   Marc 2022.1
+   output for increment       1. "          lcase1"
+
+
+             total strain energy         is    6.51631E-01
+               within which:
+               elastic strain energy     is    6.51631E-01
+             total ext-force work        is    6.51444E-01
+               within which:
+               work by appl. force/disp. is    6.51444E-01
+               work by frictional forces is    0.00000E+00
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:           2      508990         0.9
+               solver: first part                    2      615456         1.1
+               overallocation initial allocation   129    33798540        62.0
+               other:                                0       80878         0.1
+              allocated separately:
+               incremental backup:                  10     2704316         5.0
+               solver 12                            15     3932160         7.2
+               global remeshing:                     0        1026         0.0
+               nodal vectors:                        2      407768         0.7
+               defined sets:                         0        2162         0.0
+               transformations:                      0       10804         0.0
+               kinematic boundary conditions:        0       61422         0.1
+               points, curves and surfaces:          0         288         0.0
+               mem_none:                             2      606152         1.1
+               element storage:                     18     4674786         8.6
+               material properties:                  0        4886         0.0
+               executable and common blocks:        27     7000000        12.8
+               miscellaneous                         0      120458         0.2
+               ---------------------------------------------------------------
+               total:                              208    54530092
+
+               general memory allocated:           134    35003864
+               general memory used:                  5     1205324
+
+               peak memory usage:                  208    54530092
+
+             e n d   o f   i n c r e m e n t       1
+
+             binary post data at increment       1.  subincrement    0.  on file 16
+             wall time =           2.00
+
+
+             $....end of loadcase lcase1                                                                                                                                     
+
+             $...................                                                                                                                                            
+
+
+                              *** end of input deck - job ends
+
+
+             memory usage:                       MByte       words  % of total
+
+              within general memory:           
+               element stiffness matrices:           2      508990         0.9
+               solver: first part                    2      615456         1.1
+               overallocation initial allocation   129    33798540        62.0
+               other:                                0       80878         0.1
+              allocated separately:
+               incremental backup:                  10     2704316         5.0
+               solver 12                            15     3932160         7.2
+               global remeshing:                     0        1026         0.0
+               nodal vectors:                        2      407768         0.7
+               defined sets:                         0        2162         0.0
+               transformations:                      0       10804         0.0
+               kinematic boundary conditions:        0       61422         0.1
+               points, curves and surfaces:          0         288         0.0
+               mem_none:                             2      606152         1.1
+               element storage:                     18     4674786         8.6
+               material properties:                  0        4886         0.0
+               executable and common blocks:        27     7000000        12.8
+               miscellaneous                         0      120458         0.2
+               ---------------------------------------------------------------
+               total:                              208    54530092
+
+               general memory allocated:           134    35003864
+               general memory used:                  5     1205324
+
+               peak memory usage:                  208    54530092
+
+
+             timing information:                             wall time      cpu time
+
+               total time for input:                              0.80          0.78
+               total time for stiffness matrix assembly:          0.12          0.12
+               total time for mass matrix assembly:               0.00          0.00
+               total time for stress recovery:                    0.19          0.20
+               total time for matrix solution:                    0.10          0.09
+               total time for output:                             0.29          0.27
+               total time for miscellaneous:                      0.13          0.12
+               ---------------------------------------------------------------------
+               total time:                                        1.63          1.59
+
+
+             **************************************************************************
+
+
+             
+             This is a successful completion to a Marc simulation,
+             indicating that no additional incremental data was
+             found and that the analysis is complete.
+             
+
+
+
+
+             **************************************************************************
+
+
+
+
+
+                                        Marc 2022.1
+
+                                        Number of warning messages is 0
+
+                                        Exit number 3004

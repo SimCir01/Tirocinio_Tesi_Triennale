@@ -1,0 +1,13 @@
+Marc Mentat Student Edition (C)Copyright 1994-2022, Hexagon Manufacturing Intelligence, Inc., all rights reserved
+Models are limited to 50000 nodes, 1000 curves, 500 surfaces and 100 solids.
+Expiration Date: March 15, 2024
+Command > *open_model "c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\pressione\20.4 mpa\protesi.mud"
+File has been written by Mentat 2022.1.
+Model file c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\pressione\20.4 mpa\protesi.mud opened for reading.
+Model c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\pressione\20.4 mpa\protesi opened.
+Command > *fill_view
+Command > *edit_apply Pressione
+Enter apply name : 
+Command > *save_model *quit yes
+Model file c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\pressione\20.4 mpa\protesi.mud opened for writing.
+Model saved to c:\users\utente\dropbox\pc\desktop\prove senza cricca\protesi spessa\pressione\20.4 mpa\protesi.
